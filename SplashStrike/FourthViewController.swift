@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FourthViewController.swift
 //  SplashStrike
 //
 //  Created by Hong, Sang Ho (홍상호) on 2018. 1. 28..
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class FourthViewController : UIViewController {
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,8 +19,7 @@ class SecondViewController: UIViewController {
         self.initTitleNew()
         
         let title = UILabel(frame: CGRect(x: 0, y: 100, width: 100, height: 30))
-        
-        title.text = "두 번째 탭"
+        title.text = "네 번째 탭"
         title.textColor = UIColor.red // 텍스트는 빨간색으로
         title.textAlignment = .center // 레이블 내에서 중앙 정렬로
         title.font = UIFont.boldSystemFont(ofSize: 14) // 폰트는 System Font, 14pt
@@ -27,7 +28,7 @@ class SecondViewController: UIViewController {
         
         self.view.addSubview(title)
     }
-    
+
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         let tabBar = self.tabBarController?.tabBar
         //tabBar?.isHidden = (tabBar?.isHidden == true) ? false : true
@@ -151,5 +152,5 @@ class SecondViewController: UIViewController {
         let color = UIColor(red:0.02, green:0.22, blue:0.49, alpha:1.0)
         self.navigationController?.navigationBar.barTintColor = color
     }
+    
 }
-
