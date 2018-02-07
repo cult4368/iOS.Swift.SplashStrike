@@ -13,6 +13,13 @@
 		D50C31CD20204954002FCAFB /* noti_icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C620204953002FCAFB /* noti_icon4.png */; };
 		D50C31CE20204954002FCAFB /* noti_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C720204953002FCAFB /* noti_icon2.png */; };
 		D50C31CF20204954002FCAFB /* stats-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C820204953002FCAFB /* stats-icon.png */; };
+		D512514920295D620008F17C /* HeaderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512514820295D620008F17C /* HeaderType.swift */; };
+		D59905352029981000A33119 /* rules.html in Resources */ = {isa = PBXBuildFile; fileRef = D59905342029981000A33119 /* rules.html */; };
+		D599053B2029A80800A33119 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599053A2029A80800A33119 /* LineChart.swift */; };
+		D5990541202AB1C600A33119 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5990540202AB1C600A33119 /* LeftViewController.swift */; };
+		D5990543202AB1EB00A33119 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5990542202AB1EB00A33119 /* RightViewController.swift */; };
+		D5990545202AB1FC00A33119 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5990544202AB1FC00A33119 /* BottomViewController.swift */; };
+		D5990547202AD2BE00A33119 /* ScoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5990546202AD2BE00A33119 /* ScoreCollectionViewCell.swift */; };
 		D5AE5658201DB15800656310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE5657201DB15800656310 /* AppDelegate.swift */; };
 		D5AE565A201DB15800656310 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE5659201DB15800656310 /* FirstViewController.swift */; };
 		D5AE565C201DB15800656310 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE565B201DB15800656310 /* SecondViewController.swift */; };
@@ -48,6 +55,13 @@
 		D50C31C620204953002FCAFB /* noti_icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noti_icon4.png; sourceTree = "<group>"; };
 		D50C31C720204953002FCAFB /* noti_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noti_icon2.png; sourceTree = "<group>"; };
 		D50C31C820204953002FCAFB /* stats-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats-icon.png"; sourceTree = "<group>"; };
+		D512514820295D620008F17C /* HeaderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderType.swift; sourceTree = "<group>"; };
+		D59905342029981000A33119 /* rules.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = rules.html; sourceTree = "<group>"; };
+		D599053A2029A80800A33119 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		D5990540202AB1C600A33119 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		D5990542202AB1EB00A33119 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		D5990544202AB1FC00A33119 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		D5990546202AD2BE00A33119 /* ScoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5AE5654201DB15800656310 /* SplashStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AE5657201DB15800656310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5AE5659201DB15800656310 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -89,42 +103,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D5AE564B201DB15800656310 = {
-			isa = PBXGroup;
-			children = (
-				D5AE5656201DB15800656310 /* SplashStrike */,
-				D5AE5655201DB15800656310 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D5AE5655201DB15800656310 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D5AE5654201DB15800656310 /* SplashStrike.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D5AE5656201DB15800656310 /* SplashStrike */ = {
-			isa = PBXGroup;
-			children = (
-				D5AE5675201DC50300656310 /* Resources */,
-				D5AE5657201DB15800656310 /* AppDelegate.swift */,
-				D5AE5690201DD1C400656310 /* NewAppDelegate.swift */,
-				D5AE5659201DB15800656310 /* FirstViewController.swift */,
-				D5AE565B201DB15800656310 /* SecondViewController.swift */,
-				D5AE565D201DB15800656310 /* Main.storyboard */,
-				D5AE5660201DB15800656310 /* Assets.xcassets */,
-				D5AE5662201DB15800656310 /* LaunchScreen.storyboard */,
-				D5AE5665201DB15800656310 /* Info.plist */,
-				D5AE566B201DB9CD00656310 /* ThirdViewController.swift */,
-				D5AE566D201DBA3B00656310 /* FourthViewController.swift */,
-				D5AE5673201DC2FB00656310 /* FifthViewController.swift */,
-			);
-			path = SplashStrike;
-			sourceTree = "<group>";
-		};
-		D5AE5675201DC50300656310 /* Resources */ = {
+		D59905362029984E00A33119 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				D50C31C220204953002FCAFB /* home-256.png */,
@@ -149,6 +128,80 @@
 				D5AE567A201DC56100656310 /* photo.png */,
 				D5AE567C201DC56100656310 /* rss@2x.png */,
 				D5AE5679201DC56100656310 /* twitter@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D59905372029986100A33119 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				D59905342029981000A33119 /* rules.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		D59905382029987C00A33119 /* js */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		D59905392029988400A33119 /* css */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		D5AE564B201DB15800656310 = {
+			isa = PBXGroup;
+			children = (
+				D5AE5656201DB15800656310 /* SplashStrike */,
+				D5AE5655201DB15800656310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5AE5655201DB15800656310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE5654201DB15800656310 /* SplashStrike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5AE5656201DB15800656310 /* SplashStrike */ = {
+			isa = PBXGroup;
+			children = (
+				D599053A2029A80800A33119 /* LineChart.swift */,
+				D5AE5675201DC50300656310 /* Resources */,
+				D5AE5657201DB15800656310 /* AppDelegate.swift */,
+				D5AE5690201DD1C400656310 /* NewAppDelegate.swift */,
+				D5AE5659201DB15800656310 /* FirstViewController.swift */,
+				D5AE565B201DB15800656310 /* SecondViewController.swift */,
+				D5AE565D201DB15800656310 /* Main.storyboard */,
+				D5AE5660201DB15800656310 /* Assets.xcassets */,
+				D5AE5662201DB15800656310 /* LaunchScreen.storyboard */,
+				D5AE5665201DB15800656310 /* Info.plist */,
+				D5AE566B201DB9CD00656310 /* ThirdViewController.swift */,
+				D5AE566D201DBA3B00656310 /* FourthViewController.swift */,
+				D5AE5673201DC2FB00656310 /* FifthViewController.swift */,
+				D512514820295D620008F17C /* HeaderType.swift */,
+				D5990540202AB1C600A33119 /* LeftViewController.swift */,
+				D5990542202AB1EB00A33119 /* RightViewController.swift */,
+				D5990544202AB1FC00A33119 /* BottomViewController.swift */,
+				D5990546202AD2BE00A33119 /* ScoreCollectionViewCell.swift */,
+			);
+			path = SplashStrike;
+			sourceTree = "<group>";
+		};
+		D5AE5675201DC50300656310 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D59905392029988400A33119 /* css */,
+				D59905382029987C00A33119 /* js */,
+				D59905372029986100A33119 /* html */,
+				D59905362029984E00A33119 /* images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -236,6 +289,7 @@
 				D50C31CF20204954002FCAFB /* stats-icon.png in Resources */,
 				D5AE568E201DC56100656310 /* menubar-bg.png in Resources */,
 				D5AE5687201DC56100656310 /* photo.png in Resources */,
+				D59905352029981000A33119 /* rules.html in Resources */,
 				D5AE5686201DC56100656310 /* twitter@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +303,16 @@
 			files = (
 				D5AE565C201DB15800656310 /* SecondViewController.swift in Sources */,
 				D5AE5691201DD1C400656310 /* NewAppDelegate.swift in Sources */,
+				D599053B2029A80800A33119 /* LineChart.swift in Sources */,
+				D5990543202AB1EB00A33119 /* RightViewController.swift in Sources */,
+				D5990541202AB1C600A33119 /* LeftViewController.swift in Sources */,
+				D5990545202AB1FC00A33119 /* BottomViewController.swift in Sources */,
 				D5AE5658201DB15800656310 /* AppDelegate.swift in Sources */,
 				D5AE566C201DB9CD00656310 /* ThirdViewController.swift in Sources */,
 				D5AE565A201DB15800656310 /* FirstViewController.swift in Sources */,
+				D5990547202AD2BE00A33119 /* ScoreCollectionViewCell.swift in Sources */,
 				D5AE566E201DBA3B00656310 /* FourthViewController.swift in Sources */,
+				D512514920295D620008F17C /* HeaderType.swift in Sources */,
 				D5AE5674201DC2FB00656310 /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QF6E8DZ7A2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blabola.SplashStrike;
@@ -406,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QF6E8DZ7A2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blabola.SplashStrike;
