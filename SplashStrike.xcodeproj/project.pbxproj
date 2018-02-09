@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AF4A4651EAC700518663A91 /* Pods_SplashStrike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096DF109C4A08E24AC6670A9 /* Pods_SplashStrike.framework */; };
 		D50C31C920204954002FCAFB /* home-256.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C220204953002FCAFB /* home-256.png */; };
 		D50C31CA20204954002FCAFB /* noti_icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C320204953002FCAFB /* noti_icon3.png */; };
 		D50C31CC20204954002FCAFB /* noti_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C520204953002FCAFB /* noti_icon.png */; };
@@ -46,9 +47,12 @@
 		D5AE5695201DD82400656310 /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AE5692201DD82400656310 /* more@2x.png */; };
 		D5AE5696201DD82400656310 /* arrow-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AE5693201DD82400656310 /* arrow-back@2x.png */; };
 		D5AE5697201DD82400656310 /* swift_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AE5694201DD82400656310 /* swift_logo@3x.png */; };
+		D5F142E2202C2ECE001836B0 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F142E0202C2ECE001836B0 /* DLRadioButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096DF109C4A08E24AC6670A9 /* Pods_SplashStrike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashStrike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1F6C9A04488E267CBE2CBF /* Pods-SplashStrike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashStrike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike.debug.xcconfig"; sourceTree = "<group>"; };
 		D50C31C220204953002FCAFB /* home-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-256.png"; sourceTree = "<group>"; };
 		D50C31C320204953002FCAFB /* noti_icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noti_icon3.png; sourceTree = "<group>"; };
 		D50C31C520204953002FCAFB /* noti_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noti_icon.png; sourceTree = "<group>"; };
@@ -90,6 +94,10 @@
 		D5AE5692201DD82400656310 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
 		D5AE5693201DD82400656310 /* arrow-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back@2x.png"; sourceTree = "<group>"; };
 		D5AE5694201DD82400656310 /* swift_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift_logo@3x.png"; sourceTree = "<group>"; };
+		D5F142DA202C1704001836B0 /* SplashStrike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashStrike-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5F142E0202C2ECE001836B0 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		D5F142E1202C2ECE001836B0 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		EB64F1892B0E21B6A61E0EA4 /* Pods-SplashStrike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashStrike.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF4A4651EAC700518663A91 /* Pods_SplashStrike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71B14997E8E8C964A4C0AF05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096DF109C4A08E24AC6670A9 /* Pods_SplashStrike.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9225F74375A9EEE811175D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F6C9A04488E267CBE2CBF /* Pods-SplashStrike.debug.xcconfig */,
+				EB64F1892B0E21B6A61E0EA4 /* Pods-SplashStrike.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D59905362029984E00A33119 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +185,8 @@
 			children = (
 				D5AE5656201DB15800656310 /* SplashStrike */,
 				D5AE5655201DB15800656310 /* Products */,
+				9225F74375A9EEE811175D35 /* Pods */,
+				71B14997E8E8C964A4C0AF05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,16 +201,19 @@
 		D5AE5656201DB15800656310 /* SplashStrike */ = {
 			isa = PBXGroup;
 			children = (
+				D5AE5665201DB15800656310 /* Info.plist */,
+				D5AE5690201DD1C400656310 /* NewAppDelegate.swift */,
+				D5AE5657201DB15800656310 /* AppDelegate.swift */,
+				D5F142E3202C327C001836B0 /* Supporting Files */,
+				D5F142E1202C2ECE001836B0 /* DLRadioButton.h */,
+				D5F142E0202C2ECE001836B0 /* DLRadioButton.m */,
 				D599053A2029A80800A33119 /* LineChart.swift */,
 				D5AE5675201DC50300656310 /* Resources */,
-				D5AE5657201DB15800656310 /* AppDelegate.swift */,
-				D5AE5690201DD1C400656310 /* NewAppDelegate.swift */,
 				D5AE5659201DB15800656310 /* FirstViewController.swift */,
 				D5AE565B201DB15800656310 /* SecondViewController.swift */,
 				D5AE565D201DB15800656310 /* Main.storyboard */,
 				D5AE5660201DB15800656310 /* Assets.xcassets */,
 				D5AE5662201DB15800656310 /* LaunchScreen.storyboard */,
-				D5AE5665201DB15800656310 /* Info.plist */,
 				D5AE566B201DB9CD00656310 /* ThirdViewController.swift */,
 				D5AE566D201DBA3B00656310 /* FourthViewController.swift */,
 				D5AE5673201DC2FB00656310 /* FifthViewController.swift */,
@@ -191,6 +222,7 @@
 				D5990542202AB1EB00A33119 /* RightViewController.swift */,
 				D5990544202AB1FC00A33119 /* BottomViewController.swift */,
 				D5990546202AD2BE00A33119 /* ScoreCollectionViewCell.swift */,
+				D5F142DA202C1704001836B0 /* SplashStrike-Bridging-Header.h */,
 			);
 			path = SplashStrike;
 			sourceTree = "<group>";
@@ -206,6 +238,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		D5F142E3202C327C001836B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5AE5668201DB15800656310 /* Build configuration list for PBXNativeTarget "SplashStrike" */;
 			buildPhases = (
+				5B9DD3CD86AE7F7710017C48 /* [CP] Check Pods Manifest.lock */,
 				D5AE5650201DB15800656310 /* Sources */,
 				D5AE5651201DB15800656310 /* Frameworks */,
 				D5AE5652201DB15800656310 /* Resources */,
+				5ECF7FDE6028613F69F7F964 /* [CP] Embed Pods Frameworks */,
+				CC13493E8EC0673016BD524F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +280,7 @@
 				TargetAttributes = {
 					D5AE5653201DB15800656310 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -296,6 +339,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B9DD3CD86AE7F7710017C48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplashStrike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ECF7FDE6028613F69F7F964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC13493E8EC0673016BD524F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5AE5650201DB15800656310 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -310,6 +413,7 @@
 				D5AE5658201DB15800656310 /* AppDelegate.swift in Sources */,
 				D5AE566C201DB9CD00656310 /* ThirdViewController.swift in Sources */,
 				D5AE565A201DB15800656310 /* FirstViewController.swift in Sources */,
+				D5F142E2202C2ECE001836B0 /* DLRadioButton.m in Sources */,
 				D5990547202AD2BE00A33119 /* ScoreCollectionViewCell.swift in Sources */,
 				D5AE566E201DBA3B00656310 /* FourthViewController.swift in Sources */,
 				D512514920295D620008F17C /* HeaderType.swift in Sources */,
@@ -448,14 +552,22 @@
 		};
 		D5AE5669201DB15800656310 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1F6C9A04488E267CBE2CBF /* Pods-SplashStrike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blabola.SplashStrike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SplashStrike/SplashStrike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,14 +575,21 @@
 		};
 		D5AE566A201DB15800656310 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB64F1892B0E21B6A61E0EA4 /* Pods-SplashStrike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blabola.SplashStrike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SplashStrike/SplashStrike-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
