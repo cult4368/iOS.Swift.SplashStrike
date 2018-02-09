@@ -48,6 +48,19 @@
 		D5AE5696201DD82400656310 /* arrow-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AE5693201DD82400656310 /* arrow-back@2x.png */; };
 		D5AE5697201DD82400656310 /* swift_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AE5694201DD82400656310 /* swift_logo@3x.png */; };
 		D5F142E2202C2ECE001836B0 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F142E0202C2ECE001836B0 /* DLRadioButton.m */; };
+		D5F142F1202D5FF2001836B0 /* Bowling-pins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142E9202D5FF2001836B0 /* Bowling-pins.jpg */; };
+		D5F142F2202D5FF2001836B0 /* bowling_ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142EA202D5FF2001836B0 /* bowling_ball.jpg */; };
+		D5F142F3202D5FF2001836B0 /* website_Belmonte-2-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142EB202D5FF2001836B0 /* website_Belmonte-2-1.jpg */; };
+		D5F142F4202D5FF2001836B0 /* 2017PBA03EJTackett6Slider-830x437.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142EC202D5FF2001836B0 /* 2017PBA03EJTackett6Slider-830x437.jpg */; };
+		D5F142F5202D5FF2001836B0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142ED202D5FF2001836B0 /* 4.jpg */; };
+		D5F142F6202D5FF2001836B0 /* bowling-596766_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142EE202D5FF2001836B0 /* bowling-596766_960_720.jpg */; };
+		D5F142F7202D5FF2001836B0 /* DariaPajakTrophy637.png in Resources */ = {isa = PBXBuildFile; fileRef = D5F142EF202D5FF2001836B0 /* DariaPajakTrophy637.png */; };
+		D5F142F8202D5FF2001836B0 /* 2017PWBA07DariaPajakSlider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5F142F0202D5FF2001836B0 /* 2017PWBA07DariaPajakSlider.jpg */; };
+		D5F142FA202D712D001836B0 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F142F9202D712D001836B0 /* IntroViewController.swift */; };
+		D5F142FC202D78B7001836B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F142FB202D78B7001836B0 /* GoogleService-Info.plist */; };
+		D5F1437C202D9103001836B0 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1437A202D9102001836B0 /* UserInfo.swift */; };
+		D5F1437D202D9103001836B0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1437B202D9103001836B0 /* Utils.swift */; };
+		D5F1437F202D91E4001836B0 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F1437E202D91E4001836B0 /* KakaoOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +110,19 @@
 		D5F142DA202C1704001836B0 /* SplashStrike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashStrike-Bridging-Header.h"; sourceTree = "<group>"; };
 		D5F142E0202C2ECE001836B0 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
 		D5F142E1202C2ECE001836B0 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		D5F142E9202D5FF2001836B0 /* Bowling-pins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowling-pins.jpg"; sourceTree = "<group>"; };
+		D5F142EA202D5FF2001836B0 /* bowling_ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowling_ball.jpg; sourceTree = "<group>"; };
+		D5F142EB202D5FF2001836B0 /* website_Belmonte-2-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "website_Belmonte-2-1.jpg"; sourceTree = "<group>"; };
+		D5F142EC202D5FF2001836B0 /* 2017PBA03EJTackett6Slider-830x437.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2017PBA03EJTackett6Slider-830x437.jpg"; sourceTree = "<group>"; };
+		D5F142ED202D5FF2001836B0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D5F142EE202D5FF2001836B0 /* bowling-596766_960_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bowling-596766_960_720.jpg"; sourceTree = "<group>"; };
+		D5F142EF202D5FF2001836B0 /* DariaPajakTrophy637.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DariaPajakTrophy637.png; sourceTree = "<group>"; };
+		D5F142F0202D5FF2001836B0 /* 2017PWBA07DariaPajakSlider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017PWBA07DariaPajakSlider.jpg; sourceTree = "<group>"; };
+		D5F142F9202D712D001836B0 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		D5F142FB202D78B7001836B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5F1437A202D9102001836B0 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		D5F1437B202D9103001836B0 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D5F1437E202D91E4001836B0 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		EB64F1892B0E21B6A61E0EA4 /* Pods-SplashStrike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashStrike.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF4A4651EAC700518663A91 /* Pods_SplashStrike.framework in Frameworks */,
+				D5F1437F202D91E4001836B0 /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +142,7 @@
 		71B14997E8E8C964A4C0AF05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5F1437E202D91E4001836B0 /* KakaoOpenSDK.framework */,
 				096DF109C4A08E24AC6670A9 /* Pods_SplashStrike.framework */,
 			);
 			name = Frameworks;
@@ -201,6 +229,8 @@
 		D5AE5656201DB15800656310 /* SplashStrike */ = {
 			isa = PBXGroup;
 			children = (
+				D5F1437A202D9102001836B0 /* UserInfo.swift */,
+				D5F1437B202D9103001836B0 /* Utils.swift */,
 				D5AE5665201DB15800656310 /* Info.plist */,
 				D5AE5690201DD1C400656310 /* NewAppDelegate.swift */,
 				D5AE5657201DB15800656310 /* AppDelegate.swift */,
@@ -223,6 +253,7 @@
 				D5990544202AB1FC00A33119 /* BottomViewController.swift */,
 				D5990546202AD2BE00A33119 /* ScoreCollectionViewCell.swift */,
 				D5F142DA202C1704001836B0 /* SplashStrike-Bridging-Header.h */,
+				D5F142F9202D712D001836B0 /* IntroViewController.swift */,
 			);
 			path = SplashStrike;
 			sourceTree = "<group>";
@@ -230,6 +261,7 @@
 		D5AE5675201DC50300656310 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D5F142E8202D5FF2001836B0 /* bowling */,
 				D59905392029988400A33119 /* css */,
 				D59905382029987C00A33119 /* js */,
 				D59905372029986100A33119 /* html */,
@@ -241,9 +273,25 @@
 		D5F142E3202C327C001836B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5F142FB202D78B7001836B0 /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = SOURCE_ROOT;
+		};
+		D5F142E8202D5FF2001836B0 /* bowling */ = {
+			isa = PBXGroup;
+			children = (
+				D5F142E9202D5FF2001836B0 /* Bowling-pins.jpg */,
+				D5F142EA202D5FF2001836B0 /* bowling_ball.jpg */,
+				D5F142EB202D5FF2001836B0 /* website_Belmonte-2-1.jpg */,
+				D5F142EC202D5FF2001836B0 /* 2017PBA03EJTackett6Slider-830x437.jpg */,
+				D5F142ED202D5FF2001836B0 /* 4.jpg */,
+				D5F142EE202D5FF2001836B0 /* bowling-596766_960_720.jpg */,
+				D5F142EF202D5FF2001836B0 /* DariaPajakTrophy637.png */,
+				D5F142F0202D5FF2001836B0 /* 2017PWBA07DariaPajakSlider.jpg */,
+			);
+			path = bowling;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -309,6 +357,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5AE568D201DC56100656310 /* homes_119.png in Resources */,
+				D5F142F8202D5FF2001836B0 /* 2017PWBA07DariaPajakSlider.jpg in Resources */,
+				D5F142F6202D5FF2001836B0 /* bowling-596766_960_720.jpg in Resources */,
 				D5AE5664201DB15800656310 /* LaunchScreen.storyboard in Resources */,
 				D5AE568A201DC56100656310 /* file-tree.png in Resources */,
 				D50C31CC20204954002FCAFB /* noti_icon.png in Resources */,
@@ -316,23 +366,30 @@
 				D5AE5661201DB15800656310 /* Assets.xcassets in Resources */,
 				D50C31CE20204954002FCAFB /* noti_icon2.png in Resources */,
 				D5AE5683201DC56100656310 /* checkmark@2x.png in Resources */,
+				D5F142F5202D5FF2001836B0 /* 4.jpg in Resources */,
 				D50C31CD20204954002FCAFB /* noti_icon4.png in Resources */,
+				D5F142F4202D5FF2001836B0 /* 2017PBA03EJTackett6Slider-830x437.jpg in Resources */,
 				D50C31C920204954002FCAFB /* home-256.png in Resources */,
 				D5AE568F201DC56100656310 /* facebook@2x.png in Resources */,
+				D5F142F2202D5FF2001836B0 /* bowling_ball.jpg in Resources */,
 				D50C31CA20204954002FCAFB /* noti_icon3.png in Resources */,
 				D5AE568C201DC56100656310 /* menubar-bg-mini.png in Resources */,
 				D5AE5695201DD82400656310 /* more@2x.png in Resources */,
 				D5AE5684201DC56100656310 /* connectivity-bar.png in Resources */,
 				D5AE5689201DC56100656310 /* rss@2x.png in Resources */,
 				D5AE5697201DD82400656310 /* swift_logo@3x.png in Resources */,
+				D5F142F7202D5FF2001836B0 /* DariaPajakTrophy637.png in Resources */,
 				D5AE5696201DD82400656310 /* arrow-back@2x.png in Resources */,
 				D5AE568B201DC56100656310 /* google@2x.png in Resources */,
+				D5F142F1202D5FF2001836B0 /* Bowling-pins.jpg in Resources */,
 				D5AE565F201DB15800656310 /* Main.storyboard in Resources */,
+				D5F142FC202D78B7001836B0 /* GoogleService-Info.plist in Resources */,
 				D5AE5688201DC56100656310 /* designbump@2x.png in Resources */,
 				D50C31CF20204954002FCAFB /* stats-icon.png in Resources */,
 				D5AE568E201DC56100656310 /* menubar-bg.png in Resources */,
 				D5AE5687201DC56100656310 /* photo.png in Resources */,
 				D59905352029981000A33119 /* rules.html in Resources */,
+				D5F142F3202D5FF2001836B0 /* website_Belmonte-2-1.jpg in Resources */,
 				D5AE5686201DC56100656310 /* twitter@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,15 +423,35 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,9 +465,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-resources.sh",
+				"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks/GoogleAuthUtilities.framework/Resources/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,13 +486,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F142FA202D712D001836B0 /* IntroViewController.swift in Sources */,
 				D5AE565C201DB15800656310 /* SecondViewController.swift in Sources */,
 				D5AE5691201DD1C400656310 /* NewAppDelegate.swift in Sources */,
 				D599053B2029A80800A33119 /* LineChart.swift in Sources */,
+				D5F1437C202D9103001836B0 /* UserInfo.swift in Sources */,
 				D5990543202AB1EB00A33119 /* RightViewController.swift in Sources */,
 				D5990541202AB1C600A33119 /* LeftViewController.swift in Sources */,
 				D5990545202AB1FC00A33119 /* BottomViewController.swift in Sources */,
 				D5AE5658201DB15800656310 /* AppDelegate.swift in Sources */,
+				D5F1437D202D9103001836B0 /* Utils.swift in Sources */,
 				D5AE566C201DB9CD00656310 /* ThirdViewController.swift in Sources */,
 				D5AE565A201DB15800656310 /* FirstViewController.swift in Sources */,
 				D5F142E2202C2ECE001836B0 /* DLRadioButton.m in Sources */,
@@ -561,6 +646,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -584,6 +670,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
