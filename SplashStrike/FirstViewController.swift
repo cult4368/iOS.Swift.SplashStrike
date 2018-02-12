@@ -7,10 +7,27 @@
 //
 
 import UIKit
-
+import Firebase
+import GoogleSignIn
 
 class FirstViewController: UIViewController {
 
+    var user: UserInfo!
+    @IBAction func btnLogout(_ sender: Any) {
+        
+        if user.joinAddress == "google" {
+            let firebaseAuth = Auth.auth()
+            do {
+                try
+                    firebaseAuth.signOut()
+                GIDSignIn.sharedInstance().signOut()
+                gotoLoginViewController()
+            } catch let signOutError as NSError {
+                print ("Error signing out: %@", signOutError)
+            }
+        }
+    }
+    
     @IBOutlet weak var leftContainer: UIView!
     @IBOutlet weak var rightContainer: UIView!
     @IBOutlet weak var bottomContainer: UIView!
@@ -20,6 +37,13 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.naviTitle()
 
+        guard user != nil else {
+            print("user nil")
+            return
+        }
+        
+        //txtUserID.text = user.email
+        print("FirstViewController:viewDidLoad user : \(String(describing: user?.email))")
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,6 +61,11 @@ class FirstViewController: UIViewController {
         }
     }
     
+    
+    func gotoLoginViewController(){
+        let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginViewID" ) as! LoginViewController
+        self.present(loginVC, animated: true, completion: nil)
+    }
     
     func naviTitle() {
         // ① 내비게이션 타이틀용 레이블 객체

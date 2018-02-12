@@ -15,6 +15,9 @@
 		D50C31CE20204954002FCAFB /* noti_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C720204953002FCAFB /* noti_icon2.png */; };
 		D50C31CF20204954002FCAFB /* stats-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50C31C820204953002FCAFB /* stats-icon.png */; };
 		D512514920295D620008F17C /* HeaderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512514820295D620008F17C /* HeaderType.swift */; };
+		D560C06C203127AF005EADAE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D560C06B203127AF005EADAE /* LoginViewController.swift */; };
+		D560C06E2031292C005EADAE /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D560C06D2031292C005EADAE /* JoinViewController.swift */; };
+		D560C070203146F0005EADAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D560C06F203146EF005EADAE /* Default-568h@2x.png */; };
 		D59905352029981000A33119 /* rules.html in Resources */ = {isa = PBXBuildFile; fileRef = D59905342029981000A33119 /* rules.html */; };
 		D599053B2029A80800A33119 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599053A2029A80800A33119 /* LineChart.swift */; };
 		D5990541202AB1C600A33119 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5990540202AB1C600A33119 /* LeftViewController.swift */; };
@@ -73,6 +76,9 @@
 		D50C31C720204953002FCAFB /* noti_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noti_icon2.png; sourceTree = "<group>"; };
 		D50C31C820204953002FCAFB /* stats-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats-icon.png"; sourceTree = "<group>"; };
 		D512514820295D620008F17C /* HeaderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderType.swift; sourceTree = "<group>"; };
+		D560C06B203127AF005EADAE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D560C06D2031292C005EADAE /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		D560C06F203146EF005EADAE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SplashStrike/Resources/images/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D59905342029981000A33119 /* rules.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = rules.html; sourceTree = "<group>"; };
 		D599053A2029A80800A33119 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 		D5990540202AB1C600A33119 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +113,7 @@
 		D5AE5692201DD82400656310 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
 		D5AE5693201DD82400656310 /* arrow-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back@2x.png"; sourceTree = "<group>"; };
 		D5AE5694201DD82400656310 /* swift_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift_logo@3x.png"; sourceTree = "<group>"; };
-		D5F142DA202C1704001836B0 /* SplashStrike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashStrike-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5F142DA202C1704001836B0 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D5F142E0202C2ECE001836B0 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
 		D5F142E1202C2ECE001836B0 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
 		D5F142E9202D5FF2001836B0 /* Bowling-pins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowling-pins.jpg"; sourceTree = "<group>"; };
@@ -211,6 +217,7 @@
 		D5AE564B201DB15800656310 = {
 			isa = PBXGroup;
 			children = (
+				D560C06F203146EF005EADAE /* Default-568h@2x.png */,
 				D5AE5656201DB15800656310 /* SplashStrike */,
 				D5AE5655201DB15800656310 /* Products */,
 				9225F74375A9EEE811175D35 /* Pods */,
@@ -252,8 +259,10 @@
 				D5990542202AB1EB00A33119 /* RightViewController.swift */,
 				D5990544202AB1FC00A33119 /* BottomViewController.swift */,
 				D5990546202AD2BE00A33119 /* ScoreCollectionViewCell.swift */,
-				D5F142DA202C1704001836B0 /* SplashStrike-Bridging-Header.h */,
+				D5F142DA202C1704001836B0 /* Bridging-Header.h */,
 				D5F142F9202D712D001836B0 /* IntroViewController.swift */,
+				D560C06B203127AF005EADAE /* LoginViewController.swift */,
+				D560C06D2031292C005EADAE /* JoinViewController.swift */,
 			);
 			path = SplashStrike;
 			sourceTree = "<group>";
@@ -385,6 +394,7 @@
 				D5AE565F201DB15800656310 /* Main.storyboard in Resources */,
 				D5F142FC202D78B7001836B0 /* GoogleService-Info.plist in Resources */,
 				D5AE5688201DC56100656310 /* designbump@2x.png in Resources */,
+				D560C070203146F0005EADAE /* Default-568h@2x.png in Resources */,
 				D50C31CF20204954002FCAFB /* stats-icon.png in Resources */,
 				D5AE568E201DC56100656310 /* menubar-bg.png in Resources */,
 				D5AE5687201DC56100656310 /* photo.png in Resources */,
@@ -422,35 +432,31 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -466,12 +472,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SplashStrike/Pods-SplashStrike-resources.sh",
-				"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks/GoogleAuthUtilities.framework/Resources/GTMOAuth2ViewTouch.xib",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5F142FA202D712D001836B0 /* IntroViewController.swift in Sources */,
+				D560C06C203127AF005EADAE /* LoginViewController.swift in Sources */,
 				D5AE565C201DB15800656310 /* SecondViewController.swift in Sources */,
 				D5AE5691201DD1C400656310 /* NewAppDelegate.swift in Sources */,
 				D599053B2029A80800A33119 /* LineChart.swift in Sources */,
@@ -500,6 +505,7 @@
 				D5AE565A201DB15800656310 /* FirstViewController.swift in Sources */,
 				D5F142E2202C2ECE001836B0 /* DLRadioButton.m in Sources */,
 				D5990547202AD2BE00A33119 /* ScoreCollectionViewCell.swift in Sources */,
+				D560C06E2031292C005EADAE /* JoinViewController.swift in Sources */,
 				D5AE566E201DBA3B00656310 /* FourthViewController.swift in Sources */,
 				D512514920295D620008F17C /* HeaderType.swift in Sources */,
 				D5AE5674201DC2FB00656310 /* FifthViewController.swift in Sources */,
@@ -650,9 +656,10 @@
 				);
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blabola.SplashStrike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SplashStrike/SplashStrike-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "./SplashStrike/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -674,9 +681,10 @@
 				);
 				INFOPLIST_FILE = SplashStrike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blabola.SplashStrike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SplashStrike/SplashStrike-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "./SplashStrike/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
