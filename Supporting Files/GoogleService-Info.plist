@@ -2,27 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>53952058388-rv5er8jkvhc3bshu1b6h24m7f4ok1mfp.apps.googleusercontent.com</string>
+	<string>53952058388-hj7pu58479bsrrnu4qn7874hsq9qg3ps.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.53952058388-rv5er8jkvhc3bshu1b6h24m7f4ok1mfp</string>
+	<string>com.googleusercontent.apps.53952058388-hj7pu58479bsrrnu4qn7874hsq9qg3ps</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDRx_C6RD1cfBPwGhAdE6Go28EAYQxoxb8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>53952058388</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.blabola.spalshstrike.SignIn</string>
+	<string>com.blabola.SplashStrike</string>
 	<key>PROJECT_ID</key>
 	<string>splashstrike-182603</string>
+	<key>STORAGE_BUCKET</key>
+	<string>splashstrike-182603.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
 	<false></false>
 	<key>IS_GCM_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:53952058388:ios:be73740808262050</string>
+	<string>1:53952058388:ios:fee72776aa12407c</string>
+	<key>DATABASE_URL</key>
+	<string>https://splashstrike-182603.firebaseio.com</string>
 </dict>
 </plist>

@@ -48,6 +48,7 @@ class Utils {
         box.layer.borderWidth = 1
         box.layer.cornerRadius = 5
         box.backgroundColor = hexStringToUIColor(hex: color)
+        
     }
     
     //MARK : 색상값 변경

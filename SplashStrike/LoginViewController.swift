@@ -34,7 +34,8 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
         
         //UI 구분
         self.hideKeyboardWhenTappedAround()
-        Utils.changeBoxStyle(box: bgContainerView, color: "#ECE8A7")
+        let color: String = "#ECE8A7"
+        Utils.changeBoxStyle(box: bgContainerView, color: color)
         
         GIDSignIn.sharedInstance().uiDelegate = self
         
