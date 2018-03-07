@@ -100,7 +100,7 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
     }
     
     func gotoMainViewController(user: UserInfo){
-        let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mainViewID" ) as! FirstViewController
+        let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mainViewID" ) as! IntroViewController
         mainVC.user = user
         self.present(mainVC, animated: true, completion: nil)
         loadingBar.stopAnimating()

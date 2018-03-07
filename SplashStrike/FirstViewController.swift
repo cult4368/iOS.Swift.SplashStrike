@@ -13,6 +13,7 @@ import GoogleSignIn
 class FirstViewController: UIViewController {
 
     var user: UserInfo!
+    
     @IBAction func btnLogout(_ sender: Any) {
         
         if user.joinAddress == "google" {

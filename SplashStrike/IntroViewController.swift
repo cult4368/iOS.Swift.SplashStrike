@@ -7,12 +7,29 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
 class IntroViewController: UIViewController {
 
+    var user: UserInfo!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        guard user != nil else {
+            print("user nil")
+            return
+        }
+        
+        //txtUserID.text = user.email
+        print("FirstViewController:viewDidLoad user : \(String(describing: user?.email))")
+        
+    }
+    
+    func gotoLoginViewController(){
+        let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginViewID" ) as! LoginViewController
+        self.present(loginVC, animated: true, completion: nil)
     }
     
 }

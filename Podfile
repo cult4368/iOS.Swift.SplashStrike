@@ -14,5 +14,4 @@ target 'SplashStrike' do
   pod 'FacebookLogin'
   pod 'FacebookShare', :git => 'https://github.com/1amageek/facebook-sdk-swift'
 
-
 end
